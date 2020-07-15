@@ -1,6 +1,6 @@
 import time
 
-from src.red_black_tree.TreeMap import TreeMap
+from TreeMap import TreeMap
 
 tree_map = TreeMap()
 hash_map = dict()
