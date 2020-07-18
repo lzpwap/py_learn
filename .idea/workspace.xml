@@ -24,14 +24,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5138b7d-93cd-403b-91a6-c6e9a4207c76" name="Default" comment="2018-07-03">
-      <change afterPath="$PROJECT_DIR$/src/jenny/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/solution_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5138b7d-93cd-403b-91a6-c6e9a4207c76" name="Default" comment="leetcode 三数之和">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dump.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dump.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/solution_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/solution_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530702174785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="leetcode 三数之和">
+      <created>1595063562633</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595063562633</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -322,7 +326,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="2018-07-03" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018-07-03" />
+    <MESSAGE value="leetcode 三数之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="leetcode 三数之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="979" y="299" width="1115" height="675" key="#Inspections" timestamp="1591887649198">
@@ -350,9 +355,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state width="972" height="797" key="DebuggerActiveHint/0.0.2560.1410@0.0.2560.1410" timestamp="1592406194160" />
-    <state x="353" y="233" width="1971" height="988" key="DiffContextDialog" timestamp="1591885335032">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="188" y="122" width="1052" height="518" key="DiffContextDialog" timestamp="1595072000593">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="188" y="122" width="1052" height="518" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1595072000593" />
     <state x="353" y="233" width="1971" height="988" key="DiffContextDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1591885335032" />
     <state x="451" y="126" width="761" height="515" key="EnvironmentVariablesDialog" timestamp="1594914023048">
       <screen x="0" y="0" width="1366" height="738" />
@@ -367,25 +373,25 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="838" y="828" key="Github.CreateGistDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1592322016155" />
-    <state width="926" height="151" key="GridCell.Tab.0.bottom" timestamp="1595063498435">
+    <state width="926" height="151" key="GridCell.Tab.0.bottom" timestamp="1595071969383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595063498435" />
+    <state width="926" height="151" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
     <state width="330" height="987" key="GridCell.Tab.0.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="151" key="GridCell.Tab.0.center" timestamp="1595063498434">
+    <state width="926" height="151" key="GridCell.Tab.0.center" timestamp="1595071969383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595063498434" />
+    <state width="926" height="151" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
     <state width="330" height="987" key="GridCell.Tab.0.center/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="151" key="GridCell.Tab.0.left" timestamp="1595063498434">
+    <state width="926" height="151" key="GridCell.Tab.0.left" timestamp="1595071969383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595063498434" />
+    <state width="926" height="151" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
     <state width="330" height="987" key="GridCell.Tab.0.left/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="151" key="GridCell.Tab.0.right" timestamp="1595063498435">
+    <state width="926" height="151" key="GridCell.Tab.0.right" timestamp="1595071969383">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595063498435" />
+    <state width="926" height="151" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
     <state width="330" height="987" key="GridCell.Tab.0.right/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
     <state width="926" height="207" key="GridCell.Tab.1.bottom" timestamp="1595063312483">
       <screen x="0" y="0" width="1366" height="738" />
@@ -412,6 +418,10 @@
     </state>
     <state x="133" y="30" width="916" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594914434227" />
     <state x="819" y="145" width="1412" height="883" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1592637408605" />
+    <state x="452" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595063629560">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="452" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1595063629560" />
     <state x="996" y="152" width="757" height="975" key="find.popup" timestamp="1591800986270">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
