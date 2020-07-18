@@ -25,19 +25,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5138b7d-93cd-403b-91a6-c6e9a4207c76" name="Default" comment="2018-07-03">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dump.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dump.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/red_black_tree/TreeMap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/red_black_tree/TreeTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/red_black_tree/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jenny/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/solution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/solution_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/py_app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type.py" beforeDir="false" afterPath="$PROJECT_DIR$/type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dump.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/dump.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,17 +96,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="D:/asDeveloper/aboutAndroid/dart/dart-sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Program_custom/anaconda3/_conda.exe" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings module-name="py_app">
+      <console-settings module-name="py_app" sdk-home="C:\Program_custom\anaconda3\python.exe">
+        <option name="mySdkHome" value="C:\Program_custom\anaconda3\python.exe" />
         <option name="myModuleName" value="py_app" />
       </console-settings>
     </option>
@@ -128,7 +123,7 @@
       <recent name="C:\Users\Administrator\Desktop\temp\py\py_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.TreeTest">
+  <component name="RunManager" selected="Python.solution_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -161,28 +156,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Json.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ProcessPool" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py_app" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ProcessPool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,6 +227,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="solution_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="py_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program_custom\anaconda3\envs\python35\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcode" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcode/solution_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -264,8 +258,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Python.solution_test" />
       <item itemvalue="Python.Json" />
-      <item itemvalue="Python.ProcessPool" />
       <item itemvalue="Python.Student" />
       <item itemvalue="Python.TreeMap" />
       <item itemvalue="Python.TreeTest" />
@@ -273,10 +267,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.TreeTest" />
-        <item itemvalue="Python.TreeMap" />
-        <item itemvalue="Python.Student" />
         <item itemvalue="Python.Json" />
-        <item itemvalue="Python.ProcessPool" />
       </list>
     </recent_temporary>
   </component>
@@ -327,6 +318,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="2018-07-03" />
     <option name="LAST_COMMIT_MESSAGE" value="2018-07-03" />
   </component>
@@ -335,14 +329,23 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="979" y="299" width="1115" height="675" key="#Inspections/0.0.2560.1410@0.0.2560.1410" timestamp="1591887649198" />
-    <state x="726" y="111" key="#Project_Structure" timestamp="1590229800915">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="326" y="0" key="#Project_Structure" timestamp="1594522951149">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="326" y="0" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1594522951149" />
     <state x="726" y="111" key="#Project_Structure/0.0.2560.1410@0.0.2560.1410" timestamp="1590229800915" />
+    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594914481595">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="137" y="26" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1594914481595" />
     <state x="1034" y="360" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591886458282">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="1034" y="360" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1591886458282" />
+    <state x="689" y="465" width="490" height="238" key="#xdebugger.evaluate" timestamp="1595062265224">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="689" y="465" width="490" height="238" key="#xdebugger.evaluate/0.0.1366.738@0.0.1366.738" timestamp="1595062265224" />
     <state width="972" height="797" key="DebuggerActiveHint" timestamp="1592406194160">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
@@ -351,49 +354,63 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="353" y="233" width="1971" height="988" key="DiffContextDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1591885335032" />
-    <state x="812" y="429" key="FileChooserDialogImpl" timestamp="1592637403152">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="451" y="126" width="761" height="515" key="EnvironmentVariablesDialog" timestamp="1594914023048">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="451" y="126" width="761" height="515" key="EnvironmentVariablesDialog/0.0.1366.738@0.0.1366.738" timestamp="1594914023048" />
+    <state x="433" y="225" key="FileChooserDialogImpl" timestamp="1594914368429">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="433" y="225" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1594914368429" />
     <state x="812" y="429" key="FileChooserDialogImpl/0.0.2560.1410@0.0.2560.1410" timestamp="1592637403152" />
     <state x="838" y="828" key="Github.CreateGistDialog" timestamp="1592322016155">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="838" y="828" key="Github.CreateGistDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1592322016155" />
-    <state width="330" height="987" key="GridCell.Tab.0.bottom" timestamp="1592747775585">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="151" key="GridCell.Tab.0.bottom" timestamp="1595063498435">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="151" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595063498435" />
     <state width="330" height="987" key="GridCell.Tab.0.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="330" height="987" key="GridCell.Tab.0.center" timestamp="1592747775585">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="151" key="GridCell.Tab.0.center" timestamp="1595063498434">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="151" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595063498434" />
     <state width="330" height="987" key="GridCell.Tab.0.center/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="330" height="987" key="GridCell.Tab.0.left" timestamp="1592747775585">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="151" key="GridCell.Tab.0.left" timestamp="1595063498434">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="151" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595063498434" />
     <state width="330" height="987" key="GridCell.Tab.0.left/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="330" height="987" key="GridCell.Tab.0.right" timestamp="1592747775585">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="151" key="GridCell.Tab.0.right" timestamp="1595063498435">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="151" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595063498435" />
     <state width="330" height="987" key="GridCell.Tab.0.right/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="1426" height="650" key="GridCell.Tab.1.bottom" timestamp="1592493618454">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="207" key="GridCell.Tab.1.bottom" timestamp="1595063312483">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="207" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
     <state width="1426" height="650" key="GridCell.Tab.1.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state width="1426" height="650" key="GridCell.Tab.1.center" timestamp="1592493618454">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="207" key="GridCell.Tab.1.center" timestamp="1595063312483">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="207" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
     <state width="1426" height="650" key="GridCell.Tab.1.center/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state width="1426" height="650" key="GridCell.Tab.1.left" timestamp="1592493618454">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="207" key="GridCell.Tab.1.left" timestamp="1595063312483">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="207" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
     <state width="1426" height="650" key="GridCell.Tab.1.left/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state width="1426" height="650" key="GridCell.Tab.1.right" timestamp="1592493618454">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state width="926" height="207" key="GridCell.Tab.1.right" timestamp="1595063312483">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state width="926" height="207" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
     <state width="1426" height="650" key="GridCell.Tab.1.right/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state x="819" y="145" width="1412" height="883" key="SettingsEditor" timestamp="1592637408605">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="133" y="30" width="916" height="708" key="SettingsEditor" timestamp="1594914434227">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="133" y="30" width="916" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594914434227" />
     <state x="819" y="145" width="1412" height="883" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1592637408605" />
     <state x="996" y="152" width="757" height="975" key="find.popup" timestamp="1591800986270">
       <screen x="0" y="0" width="2560" height="1410" />
@@ -403,9 +420,10 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="454" y="250" key="new project wizard/0.0.2560.1410@0.0.2560.1410" timestamp="1592637444236" />
-    <state x="932" y="314" key="run.anything.popup" timestamp="1590230218942">
-      <screen x="0" y="0" width="2560" height="1410" />
+    <state x="497" y="164" key="run.anything.popup" timestamp="1594658371227">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
+    <state x="497" y="164" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1594658371227" />
     <state x="932" y="314" key="run.anything.popup/0.0.2560.1410@0.0.2560.1410" timestamp="1590230218942" />
     <state x="690" y="348" width="840" height="1034" key="search.everywhere.popup" timestamp="1592488949092">
       <screen x="0" y="0" width="2560" height="1410" />
@@ -413,15 +431,11 @@
     <state x="690" y="348" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1410@0.0.2560.1410" timestamp="1592488949092" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="num1" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
