@@ -1,73 +1,64 @@
 from typing import List
+from src.leetcode.comment import fast_sort
 import math
 
 
-# 冒泡排序
-def get_short_nums(nums: List[int]) -> List[int]:
-    num_len = len(nums)
-    for index in range(num_len - 1):
-        for mov in range(index, num_len):
-            if nums[mov] < nums[index]:
-                tmp = nums[mov]
-                nums[mov] = nums[index]
-                nums[index] = tmp
-    return nums
-
-
-# 归并排序
-def merge_sort(nums: List[int]) -> List[int]:
-    if len(nums) < 2:
-        return nums
-    middle = math.floor(len(nums) / 2)
-    left = nums[0:middle]
-    right = nums[middle:]
-    return merge(merge_sort(left), merge_sort(right))
-
-
-# 合并数组
-def merge(left: List[int], right: List[int]) -> List[int]:
-    result = []
-    while left and right:
-        if left[0] < right[0]:
-            result.append(left.pop(0))
-        else:
-            result.append(right.pop(0))
-    while left:
-        result.append(left.pop(0))
-    while right:
-        result.append(right.pop(0))
-    return result
-
-
-# 快速排序
-def fast_sort(nums: List[int], start: int, end: int) -> List[int]:
-    if start >= end:
-        return
-    left = start
-    right = end
-    anchor = nums[start]
-    while left < right:
-        while left < right and nums[right] >= anchor:
-            right -= 1
-        while left < right and nums[left] <= anchor:
-            left += 1
-        swap(nums, left, right)
-    nums[start] = nums[left]
-    nums[left] = anchor
-    fast_sort(nums, start, right - 1)
-    fast_sort(nums, right + 1, end)
-    return nums
-
-
-# 交换元素
-def swap(nums: List[int], i: int, j: int):
-    nums[i], nums[j] = nums[j], nums[i]
-
-
 class Solution:
+
+    # 戳气球
+    def maxCoins(self, nums: List[int]) -> int:
+        result = 0
+        return result
+
+    #  电话号码的字母组合
+    #  动态规划，每个字符的结果集依赖于先前一个字符的结果集
+    def letterCombinations(self, digits: str) -> List[str]:
+        map = {'2': "abc",
+               '3': "def",
+               '4': "ghi",
+               '5': "jkl",
+               '6': "mno",
+               '7': "pqrs",
+               '8': "tuv",
+               '9': "wxyz",
+               }
+        result = []
+        for c in digits:
+            if c in map:
+                c_map = map[c]
+                if result:
+                    result = [x + y for x in result for y in c_map]
+                else:
+                    result = [i for i in c_map]
+        return result
+
+    # 最接近三数之和
+    # 数组遍历+双指针，逼近结果
+    def threeSumClosest(self, nums: List[int], target: int) -> int:
+        nums.sort()
+        result = nums[0] + nums[1] + nums[2]
+        for index in range(len(nums)):
+            left = index + 1
+            right = len(nums) - 1
+            while left < right:
+                tmp = nums[index] + nums[left] + nums[right]
+                if tmp == target:
+                    return tmp
+                elif abs(tmp - target) < abs(result - target):
+                    result = tmp
+                if tmp < target:
+                    left += 1
+                    while left < right and nums[left] == nums[left - 1]:
+                        left += 1
+                else:
+                    right -= 1
+                    while left < right and nums[right] == nums[right + 1]:
+                        right -= 1
+        return result
+
     # 两数之和，双指针
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        nums = fast_sort(nums, 0, len(nums)-1)
+        nums = fast_sort(nums, 0, len(nums) - 1)
         # nums.sort()
         print(nums)
         result = []

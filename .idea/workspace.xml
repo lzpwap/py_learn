@@ -24,8 +24,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5138b7d-93cd-403b-91a6-c6e9a4207c76" name="Default" comment="leetcode 三数之和">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f5138b7d-93cd-403b-91a6-c6e9a4207c76" name="Default" comment="归并排序+快速排序完成">
+      <change afterPath="$PROJECT_DIR$/src/jenny/learning.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/comment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/solution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/solution_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/solution_test.py" afterDir="false" />
@@ -98,7 +100,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -120,7 +122,7 @@
       <recent name="C:\Users\Administrator\Desktop\temp\py\py_app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.solution_test">
+  <component name="RunManager" selected="Python.learning">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -224,6 +226,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="learning" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="py_app" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/jenny" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/jenny/learning.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="solution_test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="py_app" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,9 +283,11 @@
       <item itemvalue="Python.Student" />
       <item itemvalue="Python.TreeMap" />
       <item itemvalue="Python.TreeTest" />
+      <item itemvalue="Python.learning" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.learning" />
         <item itemvalue="Python.TreeTest" />
         <item itemvalue="Python.Json" />
       </list>
@@ -300,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595063562633</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="归并排序+快速排序完成">
+      <created>1595072026410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595072026410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -327,7 +359,8 @@
     </ignored-roots>
     <MESSAGE value="2018-07-03" />
     <MESSAGE value="leetcode 三数之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="leetcode 三数之和" />
+    <MESSAGE value="归并排序+快速排序完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="归并排序+快速排序完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="979" y="299" width="1115" height="675" key="#Inspections" timestamp="1591887649198">
@@ -373,50 +406,50 @@
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="838" y="828" key="Github.CreateGistDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1592322016155" />
-    <state width="926" height="151" key="GridCell.Tab.0.bottom" timestamp="1595071969383">
+    <state width="759" height="116" key="GridCell.Tab.0.bottom" timestamp="1595154682094">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
+    <state width="759" height="116" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595154682094" />
     <state width="330" height="987" key="GridCell.Tab.0.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="151" key="GridCell.Tab.0.center" timestamp="1595071969383">
+    <state width="759" height="116" key="GridCell.Tab.0.center" timestamp="1595154682093">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
+    <state width="759" height="116" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595154682093" />
     <state width="330" height="987" key="GridCell.Tab.0.center/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="151" key="GridCell.Tab.0.left" timestamp="1595071969383">
+    <state width="759" height="116" key="GridCell.Tab.0.left" timestamp="1595154682093">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
+    <state width="759" height="116" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595154682093" />
     <state width="330" height="987" key="GridCell.Tab.0.left/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="151" key="GridCell.Tab.0.right" timestamp="1595071969383">
+    <state width="759" height="116" key="GridCell.Tab.0.right" timestamp="1595154682094">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="151" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595071969383" />
+    <state width="759" height="116" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595154682094" />
     <state width="330" height="987" key="GridCell.Tab.0.right/0.0.2560.1410@0.0.2560.1410" timestamp="1592747775585" />
-    <state width="926" height="207" key="GridCell.Tab.1.bottom" timestamp="1595063312483">
+    <state width="720" height="207" key="GridCell.Tab.1.bottom" timestamp="1595149993289">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="207" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
+    <state width="720" height="207" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595149993289" />
     <state width="1426" height="650" key="GridCell.Tab.1.bottom/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state width="926" height="207" key="GridCell.Tab.1.center" timestamp="1595063312483">
+    <state width="720" height="207" key="GridCell.Tab.1.center" timestamp="1595149993289">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="207" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
+    <state width="720" height="207" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1595149993289" />
     <state width="1426" height="650" key="GridCell.Tab.1.center/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state width="926" height="207" key="GridCell.Tab.1.left" timestamp="1595063312483">
+    <state width="720" height="207" key="GridCell.Tab.1.left" timestamp="1595149993288">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="207" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
+    <state width="720" height="207" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1595149993288" />
     <state width="1426" height="650" key="GridCell.Tab.1.left/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state width="926" height="207" key="GridCell.Tab.1.right" timestamp="1595063312483">
+    <state width="720" height="207" key="GridCell.Tab.1.right" timestamp="1595149993289">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="926" height="207" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1595063312483" />
+    <state width="720" height="207" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1595149993289" />
     <state width="1426" height="650" key="GridCell.Tab.1.right/0.0.2560.1410@0.0.2560.1410" timestamp="1592493618454" />
-    <state x="133" y="30" width="916" height="708" key="SettingsEditor" timestamp="1594914434227">
+    <state x="133" y="30" width="916" height="708" key="SettingsEditor" timestamp="1595135993587">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="30" width="916" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1594914434227" />
+    <state x="133" y="30" width="916" height="708" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1595135993587" />
     <state x="819" y="145" width="1412" height="883" key="SettingsEditor/0.0.2560.1410@0.0.2560.1410" timestamp="1592637408605" />
     <state x="452" y="102" key="Vcs.Push.Dialog.v2" timestamp="1595063629560">
       <screen x="0" y="0" width="1366" height="738" />
