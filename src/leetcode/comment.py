@@ -1,7 +1,12 @@
-# 冒泡排序
+'comment'
+
+__author__ = 'lizhipei'
+
 from typing import List
+import math
 
 
+# 冒泡排序
 def get_short_nums(nums: List[int]) -> List[int]:
     num_len = len(nums)
     for index in range(num_len - 1):

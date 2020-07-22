@@ -1,4 +1,4 @@
-from src.leetcode.solution import Solution
+from solution import Solution
 
 solution = Solution()
 
@@ -17,3 +17,9 @@ solution = Solution()
 # print(solution.letterCombinations("234"))
 
 print(solution.maxCoins([3, 1, 5, 8]))
+
+print("isValid={}".format(solution.isValid("(]")))
+print("isValid={}".format(solution.isValid("()")))
+print("isValid={}".format(solution.isValid("")))
+print("isValid={}".format(solution.isValid("[(){}]")))
+print("isValid={}".format(solution.isValid("[(){}]()")))

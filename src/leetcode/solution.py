@@ -1,9 +1,43 @@
+'solution'
+
+__author__ = 'lizhipei'
+
 from typing import List
-from src.leetcode.comment import fast_sort
+from comment import fast_sort
 import math
 
 
 class Solution:
+
+    #    给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
+    #   有效字符串需满足：
+    #   左括号必须用相同类型的右括号闭合。
+    #   左括号必须以正确的顺序闭合。
+    #   注意空字符串可被认为是有效字符串。
+    def isValid(self, s: str) -> bool:
+        help_list = []
+        if len(s)%2 !=0:
+            return False
+        for char in s:
+            if not help_list:
+                help_list.append(char)
+            else:
+                c = help_list.pop()
+                if c == '{':
+                    if char == '}':
+                        continue
+                elif c == '(':
+                    if char == ')':
+                        continue
+                elif c == '[':
+                    if char == ']':
+                        continue
+                help_list.append(c)
+                help_list.append(char)
+        if help_list:
+            return False
+        else:
+            return True
 
     # 戳气球
     def maxCoins(self, nums: List[int]) -> int:
