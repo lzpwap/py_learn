@@ -1,4 +1,4 @@
-'solution'
+' solution '
 
 __author__ = 'lizhipei'
 
@@ -6,10 +6,58 @@ from typing import List
 from comment import fast_sort
 import math
 
+# Definition for singly-linked list.
+class ListNode:
+     def __init__(self, val=0, next=None):
+         self.val = val
+         self.next = next
 
 class Solution:
+    # 将两个升序链表合并为一个新的 升序 链表并返回。
+    # 新链表是通过拼接给定的两个链表的所有节点组成的。
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        result:ListNode = None
+        head = result
+        list1 = l1
+        list2 = l2
+        if list1 and list2:
+            if list1.val<list2.val:
+                result = list1
+                head = result
+                list1 = list1.next
+            else:
+                result = list2
+                head = result
+                list2 = list2.next  
+        elif list1:
+            result = list1
+            head = result
+            list1 = list1.next
+        elif list2:
+            result = list2
+            head = result
+            list2 = list2.next  
+        
+        while list1 and list2:
+            if list1.val < list2.val:
+                result.next = list1
+                result = result.next
+                list1 = list1.next
+            else:
+                result.next = list2
+                result = result.next
+                list2 = list2.next
+        while list1:
+            result.next = list1
+            result = result.next
+            list1 = list1.next
+        while list2:
+            result.next = list2
+            result = result.next
+            list2 = list2.next
+        return head
 
-    #    给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
+    #   给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
     #   有效字符串需满足：
     #   左括号必须用相同类型的右括号闭合。
     #   左括号必须以正确的顺序闭合。

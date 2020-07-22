@@ -1,4 +1,5 @@
 from solution import Solution
+from solution import ListNode
 
 solution = Solution()
 
@@ -16,10 +17,34 @@ solution = Solution()
 
 # print(solution.letterCombinations("234"))
 
-print(solution.maxCoins([3, 1, 5, 8]))
+# print(solution.maxCoins([3, 1, 5, 8]))
 
-print("isValid={}".format(solution.isValid("(]")))
-print("isValid={}".format(solution.isValid("()")))
-print("isValid={}".format(solution.isValid("")))
-print("isValid={}".format(solution.isValid("[(){}]")))
-print("isValid={}".format(solution.isValid("[(){}]()")))
+# print("isValid={}".format(solution.isValid("(]")))
+# print("isValid={}".format(solution.isValid("()")))
+# print("isValid={}".format(solution.isValid("")))
+# print("isValid={}".format(solution.isValid("[(){}]")))
+# print("isValid={}".format(solution.isValid("[(){}]()")))
+
+head1 = ListNode()
+list1 = head1
+list1.val = 1
+list1.next = ListNode()
+list1 = list1.next
+list1.val = 3
+list1.next = ListNode()
+list1 = list1.next
+list1.val = 5
+
+head2 = ListNode()
+list2 = head2
+list2.val = 2
+list2.next = ListNode()
+list2 = list2.next
+list2.val = 4
+# list2.next = ListNode()
+# list2 = list2.next
+# list2.val = 6
+
+
+result = solution.mergeTwoLists(head1,head2)
+print(result)
