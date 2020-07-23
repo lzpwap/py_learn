@@ -12,6 +12,14 @@ class ListNode:
          self.val = val
          self.next = next
 
+# 搜索树节点
+class TreeNode:
+    def __init__(self, left:int,right:int,count:int,res:str):
+        self.left:int = left
+        self.right:int = right
+        self.count:int = count
+        self.res:str = res
+
 class Solution:
 
     # 数字 n 代表生成括号的对数，
@@ -35,11 +43,32 @@ class Solution:
         if count==0 and startN==0 and endN==0:
             result.append(start)
     
+
+    
+    # 广度优先遍历
+    def generateParenthesis_2(self, n: int) -> List[str]:
+        result:List[str] = []
+        nodeList:List[TreeNode] = [TreeNode(n,n,0,"")]
+        while nodeList:
+            # 通过一个数组（栈/队列）的pop的位置来决定是深度优先，还是广度优先。
+            # 如果是先进先出那就是广度优先，先进后出就是深度优先，
+            current = nodeList.pop()
+            if current.left>0 and current.count>=0:
+                newNode = TreeNode(current.left-1,current.right,current.count+1,current.res+"(")
+                nodeList.append(newNode)
+            if current.right>0 and current.count>0:
+                newNode = TreeNode(current.left,current.right-1,current.count-1,current.res+")")
+                nodeList.append(newNode)
+            if current.right==0 and current.left==0 and current.count==0:
+                result.append(current.res)
+        return result
+
+
+    # 动态规划
     def generateParenthesis_1(self, n: int) -> List[str]:
         pass
 
-    def generateParenthesis_2(self, n: int) -> List[str]:
-        pass
+
 
     # 将两个升序链表合并为一个新的 升序 链表并返回。
     # 新链表是通过拼接给定的两个链表的所有节点组成的。

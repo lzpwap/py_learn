@@ -51,3 +51,6 @@ print(result)
 
 result = solution.generateParenthesis(3)
 print(result)
+
+result = solution.generateParenthesis_2(3)
+print(result)
