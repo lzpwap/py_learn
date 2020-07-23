@@ -13,6 +13,34 @@ class ListNode:
          self.next = next
 
 class Solution:
+
+    # 数字 n 代表生成括号的对数，
+    # 请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
+    # 分治法，每次进入函数继续生成新括号（，也可能闭合括号），最后括号用完后，添加结果集
+    #   我的思路是，先往字符串中添加一个左括号
+    #   然后进入函数时，根据当前节点剩余的左括号和右括号分两个分支继续探索，
+    #   用一个变量限制右括号和左括号的平衡，层层探索。
+    #   直到探索完所有的路径，最后添加到结果集，
+        # 深度优先遍历（深度探索出某个路径再回溯到起点后再继续探索另一条路径）
+    def generateParenthesis(self, n: int) -> List[str]:
+        result:List[str] = []
+        self.computeResult(result,"(",n-1,n,1)
+        return result
+    
+    def computeResult(self,result,start:str,startN:int,endN:int,count:int):
+        if count>=0 and startN>0:
+            self.computeResult(result,start+"(",startN-1,endN,count+1)
+        if count>0 and endN>0:
+            self.computeResult(result,start+")",startN,endN-1,count-1)
+        if count==0 and startN==0 and endN==0:
+            result.append(start)
+    
+    def generateParenthesis_1(self, n: int) -> List[str]:
+        pass
+
+    def generateParenthesis_2(self, n: int) -> List[str]:
+        pass
+
     # 将两个升序链表合并为一个新的 升序 链表并返回。
     # 新链表是通过拼接给定的两个链表的所有节点组成的。
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:

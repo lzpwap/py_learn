@@ -41,10 +41,13 @@ list2.val = 2
 list2.next = ListNode()
 list2 = list2.next
 list2.val = 4
-# list2.next = ListNode()
-# list2 = list2.next
-# list2.val = 6
+list2.next = ListNode()
+list2 = list2.next
+list2.val = 6
 
 
 result = solution.mergeTwoLists(head1,head2)
+print(result)
+
+result = solution.generateParenthesis(3)
 print(result)
