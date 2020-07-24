@@ -65,8 +65,23 @@ class Solution:
 
 
     # 动态规划
+    # dp[i] = "(" + dp[j] + ")" + dp[i- j - 1] , j = 0, 1, ..., i - 1
+    # () / ()()|(()) / ()()()|(()())|()(())|(())()|((()))/
     def generateParenthesis_1(self, n: int) -> List[str]:
-        pass
+        if n==0:
+            return []
+        dp = [None for _ in range(n+1)]
+        dp[0] = [""]
+        for i in range(1,n+1):
+            cur = []
+            for j in range(i):
+                left = dp[j]
+                right = dp[i-j-1]
+                for l in left:
+                    for r in right:
+                        cur.append("("+l+")"+r)
+            dp[i] = cur
+        return dp[n]
 
 
 
